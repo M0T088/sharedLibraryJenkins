@@ -1,3 +1,7 @@
+import moto.HelloConnections.*
+
 def moto() {
-    println 'Hello World'
+    HelloService service = new HelloService()
+    String show = service.checkHello()
+    echo show
    }

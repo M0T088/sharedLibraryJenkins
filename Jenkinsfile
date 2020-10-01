@@ -20,9 +20,9 @@ pipeline {
                     rainer.info 'lasst uns pause machen'
                     sevcan.warning 'sevcan'
                     simple.warning 'simple'
+					Hello.moto()
                     walalalalalalaaaaaa.warning 'walalalalalalaaaaaa'
                     werbung.warning 'hier könnte ihre Werbung stehen'
-                    Hello.moto()
                 }
             }
         }

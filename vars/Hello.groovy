@@ -1,3 +1,3 @@
 def moto () {
-    println ('Hello World')
+    println ('Hello World').execute().txt
 }

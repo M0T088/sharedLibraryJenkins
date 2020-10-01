@@ -1,1 +1,2 @@
-println 'Hello World'.execute().txt
+
+    println 'Hello World'

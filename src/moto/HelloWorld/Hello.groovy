@@ -1,3 +1,3 @@
-def moto () {
+def moto() {
     println ('Hello World')
 }

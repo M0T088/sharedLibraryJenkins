@@ -1,4 +1,4 @@
 def call() {
-    sleep (120)
+    sleep (300)
     sh 'docker-compose down'
 }

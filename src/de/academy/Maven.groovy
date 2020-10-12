@@ -1,8 +1,8 @@
 package de.academy
 
-class Utilities implements Serializable {
+class Maven implements Serializable {
   def steps
-  Utilities(steps) {this.steps = steps}
+  Maven(steps) {this.steps = steps}
   def mvn(args) {
     steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
   }

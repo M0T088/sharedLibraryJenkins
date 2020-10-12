@@ -1,6 +1,6 @@
 import de.academy.*
 
-def utils = new Utilities(steps)
+def utils = new Maven()
 node {
   utils.mvn 'compile'
 }

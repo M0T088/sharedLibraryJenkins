@@ -1,6 +1,6 @@
-import de.academy.*
+@Library('utils') import de.academy.Maven
 
-def utils = new Maven()
+def utils = new Maven(this)
 node {
   utils.mvn 'compile'
 }

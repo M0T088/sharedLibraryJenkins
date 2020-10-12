@@ -1,4 +1,4 @@
-import de.academy.Utilities
+import de.academy.*
 
 def utils = new Utilities(this)
 node {

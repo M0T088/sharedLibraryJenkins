@@ -1,6 +1,7 @@
-@Library('utils') import de.academy.Maven
+import de.academy.*
 
-def utils = new Maven(this)
-node {
-  utils.mvn 'compile'
+def call() {
+      MyCustomSteps myCustomSteps = new MyCustomSteps()
+
+      myCustomSteps.execute(mavenExecutor)
 }
